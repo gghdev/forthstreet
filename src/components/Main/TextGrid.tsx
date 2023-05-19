@@ -19,7 +19,7 @@ export default function TextGrid() {
           alt="Graham G. Hughes"
           className="rounded-full inline border-blue-400 dark:border-blue-500 border-2
             bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30
-            float-left mr-3 mb-3"
+            float-left mr-4 mb-4"
         />
         <h3>
           <FontAwesomeIcon icon={faArrowLeft} className="-rotate-45 mr-2" />

@@ -3,25 +3,37 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --color-foreground: 75 75 75;
+    --color-background: 255 255 255;
+    --color-background-secondary: 224 235 252;
+    --color-header-primary: 096 165 250;
+    --color-header-secondary: 76 152 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --color-foreground: 225 225 225;
+        --color-background: 30 41 59;
+        --color-background-secondary: 39 50 75;
+        --color-header-primary: 007 063 128;
+        --color-header-secondary: 15 50 100;
+    }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+a {
+    @apply font-bold underline decoration-dotted underline-offset-4
+    text-gray-600 hover:text-foreground dark:text-foreground dark:hover:text-white
+    transition ease-in-out;
+}
+
+footer a {
+    @apply text-gray-200 hover:text-white
+}
+
+h3 {
+    @apply font-cursive text-2xl mb-5
+}
+
+main .grid section {
+    @apply p-4 md:p-6
 }

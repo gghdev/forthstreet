@@ -26,7 +26,7 @@ export const metadata = {
       media: "(prefers-color-scheme: light)",
     },
     {
-      color: "rgb(8, 69, 1388)",
+      color: "rgb(8, 69, 138)",
       media: "(prefers-color-scheme: dark)",
     },
   ],

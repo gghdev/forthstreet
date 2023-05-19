@@ -17,7 +17,7 @@ export default function TextGrid() {
           width="100"
           height="100"
           alt="Graham G. Hughes"
-          className="rounded-full inline border-header-primary border-2
+          className="rounded-full inline border-blue-400 dark:border-blue-500 border-2
             bg-black bg-opacity-50 dark:bg-white dark:bg-opacity-30
             float-left mr-3 mb-3"
         />

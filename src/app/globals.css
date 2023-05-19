@@ -15,8 +15,8 @@
         --color-foreground: 225 225 225;
         --color-background: 30 41 59;
         --color-background-secondary: 39 50 75;
-        --color-header-primary: 007 063 128;
-        --color-header-secondary: 15 50 100;
+        --color-header-primary: 8 69 138;
+        --color-header-secondary: 17 56 114;
     }
 }
 
@@ -27,13 +27,25 @@ a {
 }
 
 footer a {
-    @apply text-gray-200 hover:text-white
+    @apply text-gray-200 hover:text-white;
 }
 
 h3 {
-    @apply font-cursive text-2xl mb-5
+    @apply font-cursive text-2xl mb-5;
+}
+
+.padding {
+    @apply p-4 md:p-6 lg:p-8;
+}
+
+.margin {
+    @apply m-4 md:m-6 lg:m-8;
+}
+
+.gap {
+    @apply gap-4 md:gap-6 lg:gap-8;
 }
 
 main .grid section {
-    @apply p-4 md:p-6
+    @apply padding
 }

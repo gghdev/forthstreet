@@ -13,7 +13,7 @@ export default function TextGrid() {
     <div className="grid grid-cols-1 md:grid-cols-2">
       <section>
         <Image
-          src="/img/graham-g-hughes.png"
+          src="/img/graham-g-hughes.webp"
           width="100"
           height="100"
           alt="Graham G. Hughes"

@@ -16,7 +16,7 @@ export const metadata = {
   openGraph: {
     title: "Forth Street Limited",
     type: "website",
-    images: ["https://www.forthstreet.com/img/logo-card-square.jpg?i=2"],
+    images: ["https://www.forthstreet.com/img/forth-street-logo-card.webp"],
     description:
       "London-based software development company, specialising in web-based applications for business.",
   },
@@ -26,10 +26,11 @@ export const metadata = {
       media: "(prefers-color-scheme: light)",
     },
     {
-      color: "rgb(007, 063, 128)",
+      color: "rgb(8, 69, 1388)",
       media: "(prefers-color-scheme: dark)",
     },
   ],
+  applicationName: "Forth Street",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -42,8 +43,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "@type": "LocalBusiness",
           "name": "Forth Street",
           "legalName": "Forth Street Limited",
-          "image": "https://www.forthstreet.com/img/logo-card.jpg?i=2",
-          "logo": "https://www.forthstreet.com/img/logo-square.png",
+          "image": "https://www.forthstreet.com/img/forth-street-logo-card.webp",
+          "logo": "https://www.forthstreet.com/img/forth-street-logo.webp",
           "url": "https://www.forthstreet.com",
           "address": {
           "@type": "PostalAddress",

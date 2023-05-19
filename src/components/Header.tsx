@@ -5,7 +5,7 @@ export default function Header() {
     <header>
       <div className="h-96 pt-10 box-content bg-gradient-to-br from-header-primary to-header-secondary from-50% to-50% relative">
         <Image
-          src="/img/lamp-cutout.png"
+          src="/img/lamp-cutout.webp"
           width={628}
           height={107}
           alt="Lamp post motif"

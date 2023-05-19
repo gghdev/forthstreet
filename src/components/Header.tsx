@@ -4,8 +4,8 @@ export default function Header() {
       <div className="h-96 pt-[1rem] box-content bg-gradient-to-br from-header-primary to-header-secondary from-50% to-50% relative">
         <div className="h-full w-full bg-[url('/img/lamp-cutout.webp')] bg-[length:250px_24rem] bg-[center_top_1rem] bg-no-repeat md:bg-fixed relative" />
       </div>
-      <div className="relative">
-        <div className="h-96 pt-10 box-content bg-gradient-to-br from-header-primary from-50% to-50%">
+      <div className="h-96 box-content bg-gradient-to-br from-header-primary from-50% to-50% flex flex-col justify-evenly">
+        <div className="fs-px">
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
@@ -13,7 +13,7 @@ export default function Header() {
             y="0"
             viewBox="0, 0, 503, 154"
             role="img"
-            className="absolute margin top-12 md:top-8 lg:top-6 h-20 md:h-24 lg:h-28 fill-white dark:fill-foreground"
+            className="h-20 md:h-24 lg:h-28 fill-white dark:fill-foreground"
           >
             <title>Forth Street Limited</title>
             <g id="V2" transform="translate(-143.388, -141.684)">
@@ -31,8 +31,9 @@ export default function Header() {
             </g>
           </svg>
         </div>
-        <div className="absolute top-48 md:top-52 lg:top-56 w-full">
-          <div className="bg-background text-foreground p-4 md:p-6">
+
+        <div>
+          <div className="bg-background text-foreground fs-py fs-px mb-10">
             <h1 className="text-3xl font-cursive">Web application development</h1>
             <h2 className="text-2xl mt-2">Bespoke tools for business</h2>
           </div>

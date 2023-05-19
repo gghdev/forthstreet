@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function TechGallery() {
   return (
-    <div className="padding flex flex-wrap gap-10 md:gap-12 lg:gap-16 text-5xl justify-center items-center">
+    <div className="fs-py fs-px flex flex-wrap gap-10 md:gap-12 lg:gap-16 text-5xl justify-center items-center">
       <FontAwesomeIcon icon={faPhp} title="PHP" />
       <FontAwesomeIcon icon={faPython} title="Python" />
       <FontAwesomeIcon icon={faReact} title="React" />

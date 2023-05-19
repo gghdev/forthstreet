@@ -1,8 +1,8 @@
 export default function Header() {
   return (
     <header>
-      <div className="h-96 box-content bg-gradient-to-br from-header-primary to-header-secondary from-50% to-50% relative">
-        <div className="h-full w-full bg-[url('/img/lamp-cutout.webp')] bg-[length:250px_24rem] bg-top bg-no-repeat md:bg-fixed relative" />
+      <div className="h-96 pt-[1rem] box-content bg-gradient-to-br from-header-primary to-header-secondary from-50% to-50% relative">
+        <div className="h-full w-full bg-[url('/img/lamp-cutout.webp')] bg-[length:250px_24rem] bg-[center_top_1rem] bg-no-repeat md:bg-fixed relative" />
       </div>
       <div className="relative">
         <div className="h-96 pt-10 box-content bg-gradient-to-br from-header-primary from-50% to-50%">

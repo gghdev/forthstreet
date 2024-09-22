@@ -63,7 +63,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         },
           "taxID": "10487304",
           "vatID": "256 6843 69",
-          "telephone": "+44 (0) 789 008 0780",
           "sameAs": [
           "https://www.linkedin.com/company/forth-street-limited",
           "https://www.facebook.com/ForthStreetLtd"

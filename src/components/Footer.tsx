@@ -9,7 +9,7 @@ export default function Footer() {
     >
       <div className="flex items-center">
         <div className="text-center md:text-left">
-          <span className="whitespace-nowrap">&copy; 2021-2023 Forth Street Limited.</span>{" "}
+          <span className="whitespace-nowrap">&copy; 2021-2024 Forth Street Limited.</span>{" "}
           <span className="whitespace-nowrap">Company no: 10487304. Registered in England.</span>{" "}
           <span className="whitespace-nowrap">VAT no: 256 6843 69.</span>
         </div>

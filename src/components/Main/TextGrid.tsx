@@ -1,10 +1,4 @@
-import {
-  faArrowLeft,
-  faEnvelope,
-  faGlobe,
-  faMapPin,
-  faPhone,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowLeft, faEnvelope, faGlobe, faMapPin } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 
@@ -78,9 +72,6 @@ export default function TextGrid() {
 
       <section className="bg-background-secondary md:bg-background">
         <h3>So, let&apos;s chat!</h3>
-        <FontAwesomeIcon icon={faPhone} className="w-5 text-center mr-2" />
-        <a href="tel:+447890080780">+44 789 008 0780</a>
-        <br />
         <FontAwesomeIcon icon={faEnvelope} className="w-5 text-center mr-2" />
         <a href="ma&#105;lto&#58;c%6Fn%7&#52;act&#64;&#102;o%&#55;2th&#115;t&#114;e%65t&#46;c%6Fm">
           contact&#64;forths&#116;reet&#46;com
@@ -88,7 +79,7 @@ export default function TextGrid() {
         <br />
         <br />
         <FontAwesomeIcon icon={faMapPin} className="w-5 text-center mr-2" />
-        London, England
+        Bangkok, Thailand
         <br />
         <FontAwesomeIcon icon={faGlobe} className="w-5 text-center mr-2" />
         Available remotely

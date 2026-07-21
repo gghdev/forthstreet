@@ -3,7 +3,7 @@ import TextGrid from "@/components/Main/TextGrid";
 
 export default function Main() {
   return (
-    <main className="mb-auto text-lg flex flex-col gap-4">
+    <main className="page-shell site-main">
       <TextGrid />
       <TechGallery />
     </main>

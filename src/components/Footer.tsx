@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="site-footer">
       <div className="page-shell footer-layout">
         <p>
-          <span>&copy; 2021-2026 Forth Street Limited.</span>{" "}
+          <span>&copy; 2016-2026 Forth Street Limited.</span>{" "}
           <span>Company no: 10487304. Registered in England.</span>{" "}
           <span>VAT no: 256 6843 69.</span>
         </p>

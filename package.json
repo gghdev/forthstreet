@@ -16,7 +16,7 @@
     "@fortawesome/free-brands-svg-icons": "^6.4.0",
     "@fortawesome/free-solid-svg-icons": "^6.4.0",
     "@fortawesome/react-fontawesome": "^3.5.0",
-    "next": "16.3.0-preview.6",
+    "next": "16.3.0-preview.7",
     "react": "19.2.7",
     "react-dom": "19.2.7"
   },
@@ -26,7 +26,7 @@
     "@types/react-dom": "^19.0.0",
     "autoprefixer": "^10.4.14",
     "eslint": "^9.0.0",
-    "eslint-config-next": "16.3.0-preview.6",
+    "eslint-config-next": "16.3.0-preview.7",
     "eslint-config-prettier": "^10.0.0",
     "postcss": "^8.4.23",
     "prettier": "^3.0.0",
